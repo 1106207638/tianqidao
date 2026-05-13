@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>天气岛 隐私政策 · Weather Island Privacy Policy</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Segoe UI", sans-serif;
+    background: #fdf6e3; color: #2a2520; line-height: 1.8;
+    padding: 24px 16px;
+  }
+  .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 32px 28px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.05); }
+  h1 { font-size: 24px; color: #6b4f2b; border-bottom: 2px solid #c8a87a; padding-bottom: 10px; margin-bottom: 16px; }
+  h2 { font-size: 18px; color: #5a4525; margin: 24px 0 10px; }
+  p, li { font-size: 14px; }
+  ul { padding-left: 24px; margin-bottom: 8px; }
+  .meta { color: #8a7050; font-size: 13px; margin-bottom: 24px; }
+  .contact { background: #fdfaf0; padding: 14px 18px; border-radius: 6px; border-left: 4px solid #c8a87a; margin-top: 24px; }
+  code { background: #ece5d0; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>天气岛 隐私政策</h1>
+<div class="meta">生效日期:2026-05-13 · 版本:1.0 · App Bundle ID:<code>com.wisstiger.weatherislandapp</code></div>
+
+<p>欢迎使用<strong>《天气岛》</strong>(以下简称"本应用")。我们(Beijing Shengtenghui Technology Co., Ltd.,以下简称"我们")极度重视您的隐私。本政策说明本应用如何收集、使用和保护您的信息。</p>
+
+<h2>1. 我们收集的信息</h2>
+<p>本应用<strong>仅</strong>收集与天气功能相关的最少信息:</p>
+<ul>
+<li><strong>地理位置</strong>(可选):当您允许定位权限时,本应用会获取您当前的地理位置(经度、纬度),用于向天气服务请求您所在城市的实时天气数据。位置信息<strong>仅本地使用</strong>,不会上传到我们的服务器。</li>
+<li><strong>城市偏好</strong>:您手动选择的城市保留在本机存储中,用于跨启动保留设置。</li>
+<li><strong>购买状态</strong>:您的 In-App Purchase(应用内购买)凭证由 Apple 系统管理。我们仅通过 Apple StoreKit 验证您的购买状态以解锁完整功能。</li>
+</ul>
+
+<p>本应用<strong>不收集</strong>以下信息:</p>
+<ul>
+<li>姓名、手机号、邮箱、身份证号等可识别个人身份的信息</li>
+<li>设备 IDFA / IDFV / 设备指纹</li>
+<li>通讯录、相册、麦克风、相机内容</li>
+<li>账号注册或用户行为追踪数据</li>
+</ul>
+
+<h2>2. 信息如何使用</h2>
+<ul>
+<li>地理位置 → 调用第三方天气 API(<a href="https://www.qweather.com/" target="_blank">和风天气 QWeather</a>)获取实时天气;请求中包含经纬度,响应在本地呈现。</li>
+<li>城市偏好 → 本机存储,跨启动恢复。</li>
+<li>购买凭证 → Apple StoreKit 校验,解锁完整功能。</li>
+</ul>
+
+<h2>3. 信息共享</h2>
+<p>本应用<strong>不与任何第三方分享您的个人信息</strong>。仅向以下服务发送必要的、不可识别您个人身份的数据:</p>
+<ul>
+<li><strong>和风天气 QWeather</strong>(<a href="https://www.qweather.com/privacy" target="_blank">隐私政策</a>):接收您的经纬度并返回天气数据。请求中不含您的姓名、设备 ID 等个人信息。</li>
+<li><strong>Apple iCloud / StoreKit</strong>:Apple 系统服务,管理您的 IAP 购买凭证。</li>
+</ul>
+
+<h2>4. 数据存储与安全</h2>
+<ul>
+<li>本应用使用 iOS 系统的 App Group / UserDefaults 保留城市偏好与购买状态,数据存储在<strong>您的设备本地</strong>。</li>
+<li>我们不在自有服务器上存储您的任何数据。</li>
+<li>所有第三方 API 通信均使用 HTTPS 加密。</li>
+</ul>
+
+<h2>5. 子组件 / 小组件 (Widget)</h2>
+<p>本应用在 iOS 主屏与锁屏的 Widget 显示当前天气信息,数据来源与主应用一致(本地缓存 + 和风天气 API),不收集额外信息。</p>
+
+<h2>6. 儿童隐私</h2>
+<p>本应用不针对 13 岁以下儿童设计。如果您是 13 岁以下儿童的监护人,发现儿童在未经允许的情况下使用本应用,请联系我们删除相关本地数据。</p>
+
+<h2>7. 您的权利</h2>
+<ul>
+<li><strong>撤回定位授权</strong>:在 iOS 设置 → 隐私与安全性 → 定位服务 → 天气岛 → 选择"永不",本应用将自动 fallback 显示北京天气。</li>
+<li><strong>清除本地数据</strong>:卸载本应用,所有本地数据(城市偏好、购买凭证缓存)随之删除。Apple iCloud 中的购买记录不删除(您可通过同 Apple ID 重新安装恢复购买)。</li>
+</ul>
+
+<h2>8. 政策变更</h2>
+<p>本政策可能随产品功能演进而更新,任何更新会同步发布在本页面。建议您不定期回访本页面。</p>
+
+<div class="contact">
+<h2 style="margin-top: 0; border: none; padding: 0;">9. 联系方式</h2>
+<p style="margin-top: 8px;">如对本隐私政策有任何疑问,请联系:</p>
+<ul style="margin-top: 6px;">
+<li>邮箱:<a href="mailto:sovanawhite656@gmail.com">sovanawhite656@gmail.com</a></li>
+<li>公司:Beijing Shengtenghui Technology Co., Ltd.</li>
+<li>App 技术支持:<a href="http://sth.net.cn/">http://sth.net.cn/</a></li>
+</ul>
+</div>
+
+</div>
+</body>
+</html>
